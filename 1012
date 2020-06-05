@@ -1,0 +1,26 @@
+lista1 = input().split(" ")
+a, b, c = lista1
+
+a = float(a)
+b = float(b)
+c = float(c)
+
+#triangulo
+areat = (a*c)/2
+print ("TRIANGULO: {:.3f}".format(areat))
+
+#circulo
+areac = 3.14159*(c**2)
+print ("CIRCULO: {:.3f}".format(areac))
+
+#trapezio
+areatt = ((a+b)*c)/2
+print ("TRAPEZIO: {:.3f}".format(areatt))
+
+#quadrado
+areaq = (b*b)
+print ("QUADRADO: {:.3f}".format(areaq))
+
+#retangulo
+arear = (a*b)
+print("RETANGULO: {:.3f}".format(arear))
