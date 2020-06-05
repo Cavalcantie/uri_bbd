@@ -1,0 +1,15 @@
+lista1 = input().split(" ")
+lista2 = input().split(" ")
+
+x1,y1 = lista1
+x2,y2 = lista2
+
+x1 = float(x1)
+y1 = float(y1)
+x2 = float(x2)
+y2 = float(y2)
+
+valor1 = ((x2-x1)**2)+((y2-y1)**2)
+raiz = float(valor1)**0.5
+
+print("{:.4f}".format(raiz))
