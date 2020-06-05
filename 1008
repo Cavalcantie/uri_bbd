@@ -1,0 +1,8 @@
+cd1 = int(input())
+qtd1 = float(input())
+prc1 = float(input())
+
+valor = (qtd1)*(prc1)
+
+print ("NUMBER = {}".format(cd1))
+print ("SALARY = U$ {:.2f}".format(valor))
